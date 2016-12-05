@@ -7,7 +7,7 @@ body='{
 
 echo $env_test
 
-if [ $env_test -eq 0 ]
+if [ $env_test -eq 1 ]
 then
 
 curl -s -X POST \

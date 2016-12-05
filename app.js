@@ -1,4 +1,4 @@
-/*eslint-env node*/
+/*eslint-env node-update*/
 
 //------------------------------------------------------------------------------
 // node.js starter application for Bluemix
@@ -15,7 +15,7 @@ var cfenv = require('cfenv');
 // create a new express server
 var app = express();
 
-//serve the files out of ./public as our main files
+// serve the files out of ./public as our main files
 //app.use(express.static(__dirname + '/public'));
 app.get('/', function (req, res) {
   res.send('hello world');
@@ -40,4 +40,3 @@ app.listen(appEnv.port, '0.0.0.0', function() {
   // print a message when the server starts listening
   console.log("server starting on " + appEnv.url);
 });
-

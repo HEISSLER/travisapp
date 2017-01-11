@@ -11,4 +11,4 @@ node_js:
 after_script:
 #- bash ./travis.sh
 #- echo $env_test
-- echo "mitt"
+- echo "next_better"
